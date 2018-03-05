@@ -2,7 +2,7 @@
 Automation of REST services using RestAssured and constructing a test report via Allure
 
 *** ABOUT THE PROJECT ***
-This project represents an exercise project for automating REST services using RestAssured. Testing framework is TestNG. Reports are created using Allure ((http://allure.qatools.ru/)
+This project represents an exercise project for automating REST services using RestAssured. Testing framework is TestNG. Reports are created using Allure ((http://allure.qatools.ru/). Serialization of POJOs was done using Gson (https://github.com/google/gson)
 
 *** WORK IN PROGRESS ***
 
