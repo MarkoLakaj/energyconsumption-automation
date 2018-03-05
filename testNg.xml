@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Powerhouse-energyconsumption">
+
+  <test name="Fractions">
+    <classes>
+      <class name="tests.fractions.AddInvalidFractionsTest"/>
+      <class name="tests.fractions.AddValidFractionsTest"/>
+      <class name="tests.fractions.DeleteFractionsTest"/>
+      <class name="tests.fractions.GetFractionsForProfileTest"/>
+      <class name="tests.fractions.IncompleteFractionDataMonthsTest"/>
+      <class name="tests.fractions.UpdateFractionsNonExistingProfileTest"/>
+      <class name="tests.fractions.UpdateFractionsExistingProfileTest"/>
+    </classes>
+  </test>
+  
+  <test name="MeterReadings">
+    <classes>
+      <class name="tests.meterreadings.AddMeterReadingsForExistingProfileTest"/>
+     <class name="tests.meterreadings.AddMeterReadingsForNonExistingProfileTest"/>
+     <class name="tests.meterreadings.DeleteMeterRaadingsForProfileTest"/>
+     <class name="tests.meterreadings.GetMeterReadingsForProfileTest"/>
+     <class name="tests.meterreadings.IncompleteMeterReadingMonthsTest"/>
+    </classes>
+  </test>
+  
+</suite>

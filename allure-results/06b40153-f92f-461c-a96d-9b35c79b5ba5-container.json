@@ -1,0 +1,1 @@
+{"uuid":"06b40153-f92f-461c-a96d-9b35c79b5ba5","name":"tests.fractions.GetFractionsForProfileTest.dataPreparation","description":"","start":1520205812273,"stop":1520205812320,"children":["86286eb4-1483-4f27-8cf2-18451be8e8e4"],"befores":[{"name":"dataPreparation","status":"passed","stage":"finished","description":"","start":1520205812273,"stop":1520205812320}]}

@@ -1,0 +1,1 @@
+{"uuid":"40f45c41-7fdb-480a-a1fa-dba67381a115","name":"tests.fractions.GetFractionsForProfileTest.dataPreparation","description":"","start":1520267749714,"stop":1520267751266,"children":["9c1c9d20-10c5-4d54-bde0-c78a377dd016"],"befores":[{"name":"dataPreparation","status":"passed","stage":"finished","description":"","start":1520267749715,"stop":1520267751265}]}

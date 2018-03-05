@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="6.271" tests="12" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Marko\Desktop\powerhouse-energyconsumption-automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Marko\Desktop\powerhouse-energyconsumption-automation"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Marko\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Marko\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1620376535747885249.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Gradle\gradle-4.4\bin;C:\Users\Marko\Desktop\apache-maven-3.5.2\bin;C:\Users\Marko\Desktop\allure-2.6.0\bin;C:\Windows\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Marko"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Marko"/>
+    <property name="java.class.path" value="C:\Users\Marko\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Marko\Desktop\powerhouse-energyconsumption-automation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="addValidFractionsForProfile_FractionSumIsCorrect" classname="tests.fractions.AddInvalidFractionsTest" time="0.347"/>
+  <testcase name="addValidFractionsForProfile_FractionSumIsCorrect" classname="tests.fractions.AddValidFractionsTest" time="0.322"/>
+  <testcase name="deleteFractionsForSpecificProfile_fractionsDeleted" classname="tests.fractions.DeleteFractionsTest" time="0.055"/>
+  <testcase name="getFractionsForProfile_allFractionsPresent" classname="tests.fractions.GetFractionsForProfileTest" time="0.02"/>
+  <testcase name="addIncompleteDataForMonths_validationErrorThrown" classname="tests.fractions.IncompleteFractionDataMonthsTest" time="0.046"/>
+  <testcase name="updateFractionsForNonExistingProfile_errorIsThrown" classname="tests.fractions.UpdateFractionsNonExistingProfileTest" time="0.045"/>
+  <testcase name="updateFractionsForExistingProfile_fractionsUpdated" classname="tests.fractions.UpdateFractionsExistingProfileTest" time="0.085"/>
+  <testcase name="addMeterReadingsForSpecificProfile_meterReadingsAdded" classname="tests.meterreadings.AddMeterReadingsForExistingProfileTest" time="0.031">
+    <failure message="[Incorrect validation message] &#10;Expecting:&#10; &lt;&quot;Validation error :  Expected consumption for profile A and month JAN is between 289.575-482.62499999999994 but current consumption is 54&#10;&quot;&gt;&#10;to contain:&#10; &lt;&quot;Success&quot;&gt; " type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+[Incorrect validation message] 
+Expecting:
+ <"Validation error :  Expected consumption for profile A and month JAN is between 289.575-482.62499999999994 but current consumption is 54
+">
+to contain:
+ <"Success"> 
+	at tests.meterreadings.AddMeterReadingsForExistingProfileTest.addMeterReadingsForSpecificProfile_meterReadingsAdded(AddMeterReadingsForExistingProfileTest.java:84)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 138
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Validation error :  Expected consumption for profile A and month JAN is between 289.575-482.62499999999994 but current consumption is 54
+
+]]></system-out>
+  </testcase>
+  <testcase name="addFractionsForNonExistingProfile_errorMessageThrown" classname="tests.meterreadings.AddMeterReadingsForNonExistingProfileTest" time="0.032">
+    <failure message="[Status code must be 400] expected:&lt;[4]00&gt; but was:&lt;[2]00&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: [Status code must be 400] expected:<[4]00> but was:<[2]00>
+	at tests.meterreadings.AddMeterReadingsForNonExistingProfileTest.addFractionsForNonExistingProfile_errorMessageThrown(AddMeterReadingsForNonExistingProfileTest.java:67)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 85
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+There is no data for profile A
+Validation error :  No fraction found for profile A
+
+]]></system-out>
+  </testcase>
+  <testcase name="deleteMeterReadingsForProfile_meterReadingsDeleted" classname="tests.meterreadings.DeleteMeterRaadingsForProfileTest" time="0.018"/>
+  <testcase name="getMeterReadingsForProfile_meterReadingsRetrieved" classname="tests.meterreadings.GetMeterReadingsForProfileTest" time="0.031"/>
+  <testcase name="addIncompleteMeterReadingData_validationErrorThrown" classname="tests.meterreadings.IncompleteMeterReadingMonthsTest" time="0.031">
+    <failure message="[Status code must be 400] expected:&lt;[4]00&gt; but was:&lt;[2]00&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: [Status code must be 400] expected:<[4]00> but was:<[2]00>
+	at tests.meterreadings.IncompleteMeterReadingMonthsTest.addIncompleteMeterReadingData_validationErrorThrown(IncompleteMeterReadingMonthsTest.java:78)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 7
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Success
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 50
+Date: Mon, 05 Mar 2018 18:03:07 GMT
+
+Validation error : Profile A must have 12 months
+
+]]></system-out>
+  </testcase>
+</testsuite>

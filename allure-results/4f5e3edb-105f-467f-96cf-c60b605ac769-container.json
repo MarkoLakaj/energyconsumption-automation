@@ -1,0 +1,1 @@
+{"uuid":"4f5e3edb-105f-467f-96cf-c60b605ac769","name":"tests.meterreadings.AddMeterReadingsForNonExistingProfileTest.dataDeletion","description":"","start":1520263632542,"stop":1520263632615,"children":["b94a483e-3f85-404f-86d1-5ee8a2df232f"],"afters":[{"name":"dataDeletion","status":"passed","stage":"finished","description":"","start":1520263632542,"stop":1520263632615}]}

@@ -1,0 +1,11 @@
+tests\fractions\AddValidFractionsTest.class
+tests\fractions\IncompleteFractionDataMonthsTest.class
+tests\meterreadings\DeleteMeterRaadingsForProfileTest.class
+tests\meterreadings\AddMeterReadingsForNonExistingProfileTest.class
+tests\fractions\UpdateFractionsNonExistingProfileTest.class
+tests\fractions\AddInvalidFractionsTest.class
+tests\meterreadings\IncompleteMeterReadingMonthsTest.class
+tests\fractions\UpdateFractionsExistingProfileTest.class
+tests\fractions\DeleteFractionsTest.class
+tests\meterreadings\AddMeterReadingsForExistingProfileTest.class
+tests\fractions\GetFractionsForProfileTest.class

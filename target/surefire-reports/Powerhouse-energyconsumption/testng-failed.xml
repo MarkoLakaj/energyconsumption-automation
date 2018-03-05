@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Powerhouse-energyconsumption]">
+  <test name="MeterReadings(failed)">
+    <classes>
+      <class name="tests.meterreadings.DeleteMeterRaadingsForProfileTest">
+        <methods>
+          <include name="dataPreparation"/>
+          <include name="dataDeletion"/>
+        </methods>
+      </class> <!-- tests.meterreadings.DeleteMeterRaadingsForProfileTest -->
+      <class name="tests.fractions.DeleteFractionsTest">
+        <methods>
+          <include name="dataPreparation"/>
+        </methods>
+      </class> <!-- tests.fractions.DeleteFractionsTest -->
+      <class name="tests.meterreadings.GetMeterReadingsForProfileTest">
+        <methods>
+          <include name="dataPreparation"/>
+          <include name="dataDeletion"/>
+        </methods>
+      </class> <!-- tests.meterreadings.GetMeterReadingsForProfileTest -->
+      <class name="tests.fractions.UpdateFractionsExistingProfileTest">
+        <methods>
+          <include name="dataDeletion"/>
+          <include name="dataPreparation"/>
+        </methods>
+      </class> <!-- tests.fractions.UpdateFractionsExistingProfileTest -->
+      <class name="tests.fractions.AddValidFractionsTest">
+        <methods>
+          <include name="dataDeletion"/>
+          <include name="dataPreparation"/>
+        </methods>
+      </class> <!-- tests.fractions.AddValidFractionsTest -->
+      <class name="tests.meterreadings.AddMeterReadingsForExistingProfileTest">
+        <methods>
+          <include name="dataDeletion"/>
+          <include name="dataPreparation"/>
+          <include name="addMeterReadingsForSpecificProfile_meterReadingsAdded"/>
+        </methods>
+      </class> <!-- tests.meterreadings.AddMeterReadingsForExistingProfileTest -->
+      <class name="tests.meterreadings.AddMeterReadingsForNonExistingProfileTest">
+        <methods>
+          <include name="addFractionsForNonExistingProfile_errorMessageThrown"/>
+          <include name="dataPreparation"/>
+          <include name="dataDeletion"/>
+        </methods>
+      </class> <!-- tests.meterreadings.AddMeterReadingsForNonExistingProfileTest -->
+      <class name="tests.fractions.IncompleteFractionDataMonthsTest">
+        <methods>
+          <include name="dataPreparation"/>
+        </methods>
+      </class> <!-- tests.fractions.IncompleteFractionDataMonthsTest -->
+      <class name="tests.meterreadings.IncompleteMeterReadingMonthsTest">
+        <methods>
+          <include name="dataDeletion"/>
+          <include name="addIncompleteMeterReadingData_validationErrorThrown"/>
+          <include name="dataPreparation"/>
+        </methods>
+      </class> <!-- tests.meterreadings.IncompleteMeterReadingMonthsTest -->
+      <class name="tests.fractions.GetFractionsForProfileTest">
+        <methods>
+          <include name="dataPreparation"/>
+          <include name="dataDeletion"/>
+        </methods>
+      </class> <!-- tests.fractions.GetFractionsForProfileTest -->
+      <class name="tests.fractions.UpdateFractionsNonExistingProfileTest">
+        <methods>
+          <include name="dataPreparation"/>
+          <include name="dataDeletion"/>
+        </methods>
+      </class> <!-- tests.fractions.UpdateFractionsNonExistingProfileTest -->
+      <class name="tests.fractions.AddInvalidFractionsTest">
+        <methods>
+          <include name="dataDeletion"/>
+          <include name="dataPreparation"/>
+        </methods>
+      </class> <!-- tests.fractions.AddInvalidFractionsTest -->
+    </classes>
+  </test> <!-- MeterReadings(failed) -->
+</suite> <!-- Failed suite [Powerhouse-energyconsumption] -->

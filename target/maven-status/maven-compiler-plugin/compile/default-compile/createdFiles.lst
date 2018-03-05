@@ -1,0 +1,7 @@
+proxies\MeterReadingProxy.class
+common\Environment.class
+common\RestAssuredBaseClient.class
+pojos\Fractions.class
+pojos\MeterReading.class
+pojos\MonthProfileKey.class
+proxies\FractionsProxy.class

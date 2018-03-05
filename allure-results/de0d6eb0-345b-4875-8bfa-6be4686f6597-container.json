@@ -1,0 +1,1 @@
+{"uuid":"de0d6eb0-345b-4875-8bfa-6be4686f6597","name":"tests.fractions.GetFractionsForProfileTest.dataDeletion","description":"","start":1520205064852,"stop":1520205064868,"children":["25e682bb-0141-45d8-991d-3a3e3aa0061f"],"afters":[{"name":"dataDeletion","status":"passed","stage":"finished","description":"","start":1520205064852,"stop":1520205064868}]}

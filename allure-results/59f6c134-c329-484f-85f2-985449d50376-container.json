@@ -1,0 +1,1 @@
+{"uuid":"59f6c134-c329-484f-85f2-985449d50376","name":"tests.meterreadings.GetMeterReadingsForProfile.dataDeletion","description":"","start":1520204280524,"stop":1520204280572,"children":["334bcf8e-9d18-439f-afed-a084a56bb128"],"afters":[{"name":"dataDeletion","status":"passed","stage":"finished","description":"","start":1520204280524,"stop":1520204280572}]}

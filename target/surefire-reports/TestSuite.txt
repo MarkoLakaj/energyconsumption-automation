@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 6.271 s <<< FAILURE! - in TestSuite
+addMeterReadingsForSpecificProfile_meterReadingsAdded(tests.meterreadings.AddMeterReadingsForExistingProfileTest)  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.AssertionError: 
+[Incorrect validation message] 
+Expecting:
+ <"Validation error :  Expected consumption for profile A and month JAN is between 289.575-482.62499999999994 but current consumption is 54
+">
+to contain:
+ <"Success"> 
+	at tests.meterreadings.AddMeterReadingsForExistingProfileTest.addMeterReadingsForSpecificProfile_meterReadingsAdded(AddMeterReadingsForExistingProfileTest.java:84)
+
+addFractionsForNonExistingProfile_errorMessageThrown(tests.meterreadings.AddMeterReadingsForNonExistingProfileTest)  Time elapsed: 0.032 s  <<< FAILURE!
+org.junit.ComparisonFailure: [Status code must be 400] expected:<[4]00> but was:<[2]00>
+	at tests.meterreadings.AddMeterReadingsForNonExistingProfileTest.addFractionsForNonExistingProfile_errorMessageThrown(AddMeterReadingsForNonExistingProfileTest.java:67)
+
+addIncompleteMeterReadingData_validationErrorThrown(tests.meterreadings.IncompleteMeterReadingMonthsTest)  Time elapsed: 0.031 s  <<< FAILURE!
+org.junit.ComparisonFailure: [Status code must be 400] expected:<[4]00> but was:<[2]00>
+	at tests.meterreadings.IncompleteMeterReadingMonthsTest.addIncompleteMeterReadingData_validationErrorThrown(IncompleteMeterReadingMonthsTest.java:78)
+
