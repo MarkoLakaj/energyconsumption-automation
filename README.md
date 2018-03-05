@@ -13,3 +13,11 @@ Due to time limitations, this project still needs work. I will name some of the 
 3. All constants and environment properties are placed in Environment class. This needs to be separated. All environment properties should be in a different file (called environment.properties), Environment class should be renamed to "Constants" and properties like status codes and MONTH_XXX should remain there
 4. CONSUMPTION functionality was LEFT OUT - it highly depends on correct implementation of creating meter readings, which currently has a bug and needs fixing (faulty implementation of meter readings formula)
 5. ADD COMMENTS AND JAVADOCs!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+
+
+*** STEPS NEEDED TO RUN TESTS AND CONSTRUCT A REPORT ***
+
+1. Clone the project in desired folder
+2. Navigate to pom.xml file
+3. Open command line and type : mvn clean test
+4. After test are ran , type : allure serve allure-results
