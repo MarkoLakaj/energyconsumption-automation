@@ -17,6 +17,8 @@ Due to time limitations, this project still needs work. I will name some of the 
 
 *** STEPS NEEDED TO RUN TESTS AND CONSTRUCT A REPORT ***
 
+*note : you must have maven and allure installed* 
+
 1. Clone the project in desired folder
 2. Navigate to pom.xml file
 3. Open command line and type : mvn clean test
