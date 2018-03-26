@@ -1,0 +1,42 @@
+
+
+
+
+	About me : 
+	
+	business side 
+	
+	- Working in QA business for 4 years
+	- Graduated on Faculty of Technical Science in Novi Sad
+	- I was on a Lead Tester position on my previous project also, and I am on that same position on my current project
+	
+	social side 
+	
+	- consider myself pretty social person
+	- friends and family pretty important
+	- love to hang out with friends and colleagues
+	- sports guy
+	
+	
+	
+	
+	IMPORTANT SKILLS FOR QA : 
+	
+	- thinking out of the box
+	- being methodical and patient
+	- being able to understand features from the end user perspective
+	
+	
+	
+	CURRENT PROJECT : 
+	
+	- Java project , front-end is written in Angular 2.0
+	
+	- For MANUAL testing , I am using TESTLINK for documenting test cases , using JIRA for bug reporting 
+	- For AUTOMATED testing, I am using SELENIUM and testNG for UI tests and custom framework (based on java core REST calls) / testNG for REST tests
+	
+	
+	RESPONSIBILITIES : 
+	
+	- day to day communication with POs
+	- creating test reports after each regression
